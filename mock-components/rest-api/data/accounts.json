@@ -1,0 +1,14 @@
+[
+  {
+    "emailAddress": "john@doe.com",
+    "accountNumber": "123456789"
+  },
+  {
+    "emailAddress": "jane@doe.com",
+    "accountNumber": "987654321"
+  },
+  {
+    "emailAddress": "jimmy@doe.com",
+    "accountNumber": "456123789"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "payment-gateway-poc-mock-rest",
+  "description": "Payment Gateway MOCK REST/JSON API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "eslint:html": "./node_modules/eslint/bin/eslint.js -c .eslintrc -f node_modules/eslint-html-reporter/reporter.js -o reports/eslint-report.html ./",
+    "start": "NODE_ENV=develop node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cngroupdk/payment-gateway-poc.git"
+  },
+  "author": "CN Group CZ",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-html-reporter": "0.5.2",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
